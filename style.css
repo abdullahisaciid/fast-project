@@ -8,8 +8,7 @@
    padding: 10px 90px;
    justify-content: space-between;
    color: white;
-   position: fixed;
-   left: 0%;
+   
    
 }
 
@@ -51,19 +50,79 @@ padding-left: 40px;
     display: flex;
     width: 800px;
     height: 200px;
-    background-color: rgb(101, 101, 103);
+    background-color: rgb(244, 244, 247);
     justify-content: center;
     text-align: center;
     margin-left: 20%;
-    gap: 10px;
+    gap: 4 0px;
     box-shadow: azure 2px 2px;
     align-items: center;
     border-radius: 20px;
+    justify-content: space-between;
 }
 .lio i{
     margin-top: 10px;
     font-size: 1.8em;
+    color: blue;
 }
 .mbc p{
     color: gray;
+}
+.four{
+    padding: 20px 90px;
+    margin-top: 60px;
+    color: blue;
+}
+.four h1{
+    color:rgb(6, 6, 126) ;
+    font-size: 2.3em;
+
+
+}
+.xir{
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 10px 90px;
+    gap: 40px;
+
+}
+
+.box1{
+    /* background-color: blue; */
+    width: 45%;
+    font-size: 1.5em;
+}
+.box2{
+    /* background-color: brown; */
+    width: 40%;
+
+}
+.box1 input{
+    padding: 10px 10px;
+    border-radius: 15px;
+}
+.box1 label{
+    font-size: 0.8em;
+    padding-left: 10px;
+}
+.box2 img{
+    width: 400px;
+    border-radius: 15px;
+    height: 370px;
+}
+.one1{
+    display: flex;
+    gap: 20px;
+}
+.two2 input{
+    padding: 10px 113px;
+    text-align: start;
+    justify-content: start;
+    align-items: start;
+
+}
+.box1 button{
+    margin-top: 30px;
+    padding: 10px 30px;
+    border-radius: 15px;
 }
